@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+  background: linear-gradient(to right, #76d3ce, #7ebfeb);
+}

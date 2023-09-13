@@ -1,0 +1,17 @@
+
+
+
+
+  <div class="containers" *ngIf="isSignedin">
+    <div class="card text-center" style="width: 25rem;">
+      <div class="card-body">
+        <h5 class="card-title">Welcome back, {{ signedinUser }}!</h5>
+        <p class="card-text">You Are the Admin of Our Website, Good Luck</p>
+        <a style=" cursor: pointer;" (click)="doSignout()" class="btn btn-danger">Signout</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="my-3">
+    <app-adminpanel></app-adminpanel>
+  </div>

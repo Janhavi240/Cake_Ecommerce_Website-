@@ -1,0 +1,71 @@
+<!-- <div class="mb-3 container">
+  <label class="form-label" for="ct_catid">Category Name</label>
+  <select aria-describedby="emailHelp" [(ngModel)]="catid" (change)="showValue()">
+        <option *ngFor="let a of catObj" [value]="a.catid">{{a.catnm}}</option>
+  </select>
+  <span class="material-symbols-outlined float-end" (click)="showcart()" data-bs-toggle="modal" data-bs-target="#showcart"> shopping_cart</span>
+
+  <section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="shopping__cart__table">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr  *ngFor="let a of cart">
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <td>{{a.prnm}}</td>
+                                <td>{{a.qty}}</td>
+                                <td>{{a.price}}</td>
+
+                                <th><img src="data:image/*;base64,{{a.pic}}" height="40" width="40"></th>
+
+                                <td><button (click)="deletecart(a)" class="btn btn-danger">
+                                  <span class="material-symbols-outlined">
+                                    delete
+                                    </span>
+                                </button></td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="continue__btn">
+                            <a routerLink="/cakes">Continue Shopping</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="continue__btn update__btn">
+                            <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="cart__discount">
+                    <h6>Discount codes</h6>
+                    <form action="#">
+                        <input type="text" placeholder="Coupon code">
+                        <button type="submit">Apply</button>
+                    </form>
+                </div>
+                <div class="cart__total">
+                    <h6>Cart total</h6>
+                    <ul>
+
+                      <h5>Total : {{tot}}</h5>
+                    </ul>
+
+                    <button type="button" class="primary-btn" (click)="ordernow()" aria-label="Order Now"> Order Now </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+-->
